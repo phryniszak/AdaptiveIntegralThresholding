@@ -4,4 +4,4 @@ Adaptive Thresholding Using the Integral Image
 Based on https://github.com/rmtheis/bradley-adaptive-thresholding
 Converted to opencv 3
 
-Works better then opencv cv::adaptiveThreshold
+It gives better result then opencv cv::adaptiveThreshold
