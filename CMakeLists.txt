@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 2.8)
 add_definitions(-std=c++11)
 
 # Define project name
-project(adaptiveThreshold)
+project(aithreshold)
 
 # Find OpenCV, you may need to set OpenCV_DIR variable
 # to the absolute path to the directory containing OpenCVConfig.cmake file
@@ -22,7 +22,7 @@ message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 
 
 # Declare the executable target built from your sources
-add_executable(adaptiveThreshold_exe main.cpp)
+add_executable(aithreshold main.cpp)
 
 # Link your application with OpenCV libraries
-target_link_libraries(adaptiveThreshold_exe ${OpenCV_LIBS})
+target_link_libraries(aithreshold ${OpenCV_LIBS})
