@@ -7,4 +7,4 @@ Converted to opencv 4
 
 It gives better result then opencv cv::adaptiveThreshold
 
-Previous version has a small bug as integral mat returned by opencv is one row and column bigger from source mat and it was not accounted in computation.
+Previous version has a small bug as integral mat returned by opencv is one row and column bigger then source mat and it was not accounted in computation.
